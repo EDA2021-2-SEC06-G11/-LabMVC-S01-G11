@@ -55,8 +55,8 @@ def loadTags(filename):
 
 def loadBooksTags(filename):
     bookTagsfile = cf.data_dir + filename
-    input_file = csv.DictReader(open(bookTagsfile,encoding= 'utf-8'))
+    input_file = csv.DictReader(open(bookTagsfile,encoding='utf-8'))
     GoodreadsTags = model.createGoodreadsTagsList()
-    #for unit in input_file :
-    GoodreadsTags = model.addBookWithTag(GoodreadsTags)
+    for unit in input_file :
+        model.addBookWithTag(GoodreadsTags, unit)
     return GoodreadsTags
