@@ -1,5 +1,6 @@
 #ISIS1225 - Estructura de un proyecto
-Integrantes: \n
+Integrantes:
+
 Estudiante1 = Santiago Sinisterra Arias 202022177 
 Estudiante2 = Juan Felipe Serrano 201921654
 
