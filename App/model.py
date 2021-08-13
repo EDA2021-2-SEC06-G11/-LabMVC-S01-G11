@@ -71,3 +71,17 @@ def createTagList():
     """
     taglist = lt.newList(datastructure='SINGLE_LINKED')
     return taglist
+
+def createGoodreadsTagsList():
+    taglist = [1]
+    return taglist
+
+def addBookWithTag(TagList):
+    ##for i in TagList.length():
+      ##  if(TagList[i] == Tag):
+        ##    TagList[i].append(book)
+        ##else: 
+          ##  TagList.append([Tag])
+            ##TagList[Tag].append([book])        
+    return ('Datos cargados efectivamente')
+

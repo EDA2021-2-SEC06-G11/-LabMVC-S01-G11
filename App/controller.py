@@ -20,6 +20,7 @@
  * along withthis program.  If not, see <http://www.gnu.org/licenses/>.
  """
 
+from App.model import addBookWithTag
 import config as cf
 import model
 import csv
@@ -52,8 +53,10 @@ def loadTags(filename):
     return tags
 
 
-def loadBooksTags(catalog):
-    """
-    TODO futuro laboratorios
-    """
-    pass
+def loadBooksTags(filename):
+    bookTagsfile = cf.data_dir + filename
+    input_file = csv.DictReader(open(bookTagsfile,encoding= 'utf-8'))
+    GoodreadsTags = model.createGoodreadsTagsList()
+    #for unit in input_file :
+    GoodreadsTags = model.addBookWithTag(GoodreadsTags)
+    return GoodreadsTags

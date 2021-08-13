@@ -1,4 +1,7 @@
 #ISIS1225 - Estructura de un proyecto
+Integrantes:
+Estudiante1 = Santiago Sinisterra Arias 202022177 
+Estudiante2 = Juan Felipe Serrano 201921654
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
