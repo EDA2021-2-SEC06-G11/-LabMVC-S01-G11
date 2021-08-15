@@ -2,7 +2,7 @@
 Integrantes:
 
 Estudiante1 = Santiago Sinisterra Arias 202022177 s.sinisterra@uniandes.edu.co
-Estudiante2 = Juan Felipe Serrano 201921654      j.serrano@uniandes.edu.co
+Estudiante2 = Juan Felipe Serrano 201921654 j.serrano@uniandes.edu.co
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
